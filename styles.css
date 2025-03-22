@@ -1,0 +1,148 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #a4c1f5, #b9cceb);
+    color: rgba(14, 14, 14, 0.6);
+}
+
+
+nav {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 20px 10px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+nav ul li a:hover {
+    color: #0e7bf8;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #0e7bf8;
+}
+
+/* Container for both pages */
+.container {
+    width: 400px;
+    margin: 1rem auto;
+    background: #93fcc9;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#headingTbl {
+    color: #333;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#myInput{
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 0 5px;
+    background: #f9f9f9;
+}
+
+#generateBtn {
+    width: 100%;
+    padding: 10px 20px;
+    background: #0569ec;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+
+    cursor: pointer;
+
+}
+
+#generateBtn:hover {
+    background-color: #020e6b;
+}
+
+#error-message {
+    color: red;
+    text-align: center;
+    font-size: 14px;
+}
+
+#output {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#output p {
+    font-size: 20px;
+}
+
+
+.blogContainer {
+    width: 80%;
+    margin: 1rem auto;
+    background: #93fcc9;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.blog {
+    background-color: #a5ffd7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 0px;
+
+}
+
+
+.que {
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.ans {
+    background: #fcfcff;
+    padding: 10px;
+}
